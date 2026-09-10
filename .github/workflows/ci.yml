@@ -1,1 +1,16 @@
-``` name: CI on: push: branches: [main] jobs: build-and-test: runs-on: ubuntu-latest steps: -name: Checkout repository uses: actions/ checkout@v4 - name: Verify site files run: test -f index.html && echo index.html encontrado - name: Simulate build run: ehco Build exitoso ```
+name: CI 
+
+on: 
+push: 
+branches: [main] 
+
+jobs: 
+build-and-test: 
+runs-on: ubuntu-latest 
+steps: 
+-name: Checkout repository 
+uses: actions/ checkout@v4 
+- name: Verify site files 
+run: test -f index.html && echo index.html encontrado 
+- name: Simulate build 
+run: ehco Build exitoso
