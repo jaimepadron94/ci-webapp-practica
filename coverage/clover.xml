@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1789572915958" clover="3.2.0">
+  <project timestamp="1789572915958" name="All files">
+    <metrics statements="8" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2" elements="15" coveredelements="9" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="operaciones.js" path="C:\Users\jaime\ci-webapp-practica\operaciones.js">
+      <metrics statements="8" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

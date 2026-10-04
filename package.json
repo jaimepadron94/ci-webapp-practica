@@ -1,0 +1,30 @@
+{
+  "name": "ci-webapp-practica",
+  "version": "1.0.0",
+  "description": "Repositorio de práctica para la actividad de Integración Continua con webapp.io",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "start": "node server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimepadron94/ci-webapp-practica.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jaimepadron94/ci-webapp-practica/issues"
+  },
+  "homepage": "https://github.com/jaimepadron94/ci-webapp-practica#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "jest": "^30.5.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
